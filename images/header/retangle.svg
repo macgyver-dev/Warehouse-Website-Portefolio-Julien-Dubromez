@@ -1,0 +1,25 @@
+<svg id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8c255;
+      }
+
+      .cls-2 {
+        fill: #bfe79e;
+      }
+
+      .cls-3 {
+        fill: #ff9b6d;
+      }
+
+      .cls-4 {
+        fill: #7dd5c9;
+      }
+    </style>
+  </defs>
+  <rect id="_img_Haut_Gauche_Rectangle_7" data-name="&lt;img&gt; Haut Gauche Rectangle 7" class="cls-1" width="24" height="24"/>
+  <rect id="_img_Haut_Droite_Rectangle_7" data-name="&lt;img&gt; Haut Droite Rectangle 7" class="cls-2" x="24" width="24" height="24"/>
+  <rect id="_img_Bas_Gauche_Rectangle_7_" data-name="&lt;img&gt; Bas Gauche Rectangle 7 " class="cls-3" y="24" width="24" height="24"/>
+  <rect id="_img_Bas_Droite_Rectangle_7" data-name="&lt;img&gt; Bas Droite Rectangle 7" class="cls-4" x="24" y="24" width="24" height="24"/>
+</svg>

@@ -1,0 +1,516 @@
+body
+{
+	background-color: white;
+}
+
+.container
+{
+	max-width: 1500px;
+	width: 100%;
+	margin: auto;
+}
+
+.main_wrapper
+{
+	background-color: rgb(255, 255, 255);
+
+}
+
+/*Polices*/
+h1
+{
+	font-family: "Roboto", serif;
+	font-size: 56px;
+	font-weight: 100;
+	color: rgb(63, 63, 62);
+}
+
+h2
+{
+	font-family: "Roboto", serif;
+	font-size: 28px;
+	font-weight: 100;
+	color: rgb(189, 189, 189);
+}
+
+h3
+{
+	font-family: "Roboto", serif;
+	font-size: 21px;
+	font-weight: 300;
+}
+
+figcaption
+{
+	font-family: "Roboto", serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: rgb(172, 173, 167);
+}
+
+.logos p
+{
+	font-family: "Roboto", serif;
+	font-size: 14.7px;
+	font-weight: 400;
+}
+
+.prix p
+{
+	font-family: "Roboto", serif;
+	font-size: 17px;
+	font-weight: 300;
+	color: rgb(179, 175, 175);
+}
+
+/* .logos */
+.logos
+{
+	text-align: center;
+
+}
+
+.logos a
+{
+	position: relative;
+		top: 120px;
+}
+.logos h3
+{
+	padding-top: 30px;
+	position: relative;
+		top: 120px;
+}
+
+.logos p
+{
+	position: relative;
+		top: 112px;
+}
+
+/*Header*/
+
+header .container
+{
+	background: url(../images/header/triangle_jaune.svg) no-repeat 186px 0px, rgb(233,234,226);
+}
+
+header h2
+{
+	color: rgb(150, 150, 147);
+	position: relative;
+		left: 40px;
+		top: 70px;
+}
+
+.logo_poivriere
+{
+	position: relative;
+		left: 315px;
+}
+
+.images_poivrieres
+{
+	position: relative;
+		left: 195px;
+		bottom: 16px;
+}
+.rectangle
+{
+	margin-top: 17px;
+	margin-left: 4px;
+}
+
+.raccourci_nav
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-right: 10px;
+	margin-top: 60px;
+		
+}
+
+.raccourci_nav a
+{
+	margin-bottom: 30px;
+}
+
+.logo_maison
+{
+	background-color: rgb(134, 216, 205);
+	width: 70px;
+	height: 60px;
+	justify-content: center;
+	margin-right: -25px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.images_sections
+{
+	display: flex;
+		align-items: flex-end;
+}
+
+.prix
+{
+	position: relative;
+		top: 45px;
+		left: 29px;
+}
+
+.prix p
+{
+	padding-top: 15px;
+}
+
+.prix img
+{
+	padding-right: 10px;
+}
+
+.visages
+{
+	position: relative;
+		top: 70px;
+		left: 50px;
+}
+
+	/*visages section header*/
+.visage_header
+{
+	display: flex;
+		flex-direction: column;
+		align-items: center;
+	position: relative;
+		right: 50px;
+		bottom: 100px;
+}
+
+.visage_header img
+{
+	width: 56px;
+	margin-bottom: 10px;
+}
+
+.visage_header figcaption
+{
+	margin-bottom: 35px;
+}
+
+.visage_header h1
+{
+	text-align: center;
+	position: relative;
+		right: 10px;
+}
+
+	/*Nav*/
+	/*logo_nav a mettre en display flex*/
+nav
+{
+	background-image: url(../images/header/nav/background.png);
+	height: 665px;
+}
+
+h4
+{
+	font-family: "Roboto Condensed", serif;
+	font-size: 18px;
+	color: rgb(151, 151, 151);
+}
+
+nav p
+{
+	font-family: "Roboto", serif;
+	font-size: 16.5px;
+	font-weight: 700;
+	color: rgb(58, 179, 166);
+}
+
+.logos_nav
+{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+		top: 110px;
+	text-align: center;
+}
+
+.logos_nav img
+{
+	padding-bottom: 15px;
+}
+
+.logos_nav div div
+{
+	padding-bottom: 38px;
+}
+
+.colonne_2
+{
+	margin-top: -10px;
+}
+
+nav h4
+{
+	position: relative;
+		top: 80px;
+		left: 15px;
+}
+/*section 1 class="tea" */
+.tea .container
+{
+	background-color: rgb(245,245,245);
+}
+
+.tea .logos
+{
+	background: url(../images/section_tea/logo_background.svg) no-repeat;
+	width: 372px;
+	height: 370px;
+	/*text-align: center;*/
+}
+
+.tea .logos h3
+{
+	color: rgb(38, 98, 88);
+
+}
+
+.tea .logos p
+{
+	color: rgb(67, 138, 126);
+}
+	
+	/*visage*/
+
+.tea .visages img
+{
+	width: 56px;
+	margin-bottom: 10px;
+	position: relative;
+		left: 30px;
+}
+
+.tea .visages figcaption
+{
+	margin-bottom: 35px;
+}
+
+.tea .visages h1
+{
+	text-align: left;
+
+}
+
+
+
+/*section 2 class="rooms"*/
+	/*image de fond à mettre en background*/
+	/*rooms avec border-radius 50% et donner une couleur de fond sur texte*/
+.rooms .container
+{
+	background-image: url(../images/section_rooms/background.png);
+	height: 325px;
+}
+
+.rooms p
+{
+	font-family: "Roboto", serif;
+	font-size: 17px;
+	font-weight: 300;
+	color: rgb(147, 147, 147);
+	padding-top: 15px;
+}
+
+.rooms a
+{
+	background: url(../images/section_rooms/cercle.svg) no-repeat;
+	height: 165px;
+	width: 165px;
+	padding-top: 50px;
+	padding-left: 50px;
+	position: relative;
+		top: 50px;
+		right: 70px;
+
+}
+
+.rooms img
+{
+	padding-left: 15px;
+}
+
+/*section 3 class="ebony"*/
+.ebony .container
+{
+	background-color: rgb(245,245,245);
+}
+
+.ebony .logos
+{
+	background: url(../images/section_ebony/logo_background.svg) no-repeat;
+	height: 370px;
+}
+
+.ebony .logos h3
+{
+	color: rgb(88, 110, 71);
+}
+
+.ebony .logos p
+{
+	color: rgb(124, 153, 101);
+}
+
+
+	/*Visage section ebony*/
+
+.ebony .visages img
+{
+	width: 56px;
+	margin-bottom: 10px;
+	position: relative;
+		left: 30px;
+}
+
+.ebony .visages figcaption
+{
+	margin-bottom: 35px;
+}
+
+.ebony .visages h1
+{
+	text-align: left;
+
+}
+
+/*section 4 class="basic"*/
+.basic .container
+{
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.basic .logos
+{
+	background: url(../images/section_basic/logo_background.svg) no-repeat;
+	height: 370px;
+}
+
+.basic .logos h3
+{
+	color: rgb(120, 94, 40);
+}
+
+.basic .logos p
+{
+	color: rgb(174, 136, 59);
+}
+
+.basic .images_sections img
+{
+	width: 500px;
+	height: 370px;
+	position: relative;
+		right: 130px;
+}
+
+
+
+	/*Visage section basic*/
+.basic .visages
+{
+	
+}
+
+.basic .visages img
+{
+	width: 56px;
+	margin-bottom: 10px;
+	position: relative;
+		left: 30px;
+}
+
+.basic .visages figcaption
+{
+	margin-bottom: 35px;
+}
+
+.basic .visages h1
+{
+	text-align: left;
+
+}
+
+/*footer*/
+footer
+{
+	background-image: url(../images/footer/background.png);
+	height: 340px;
+	width: 1500px;
+	margin: auto;
+}
+
+footer p
+{
+	font-family: "Roboto", serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: rgb(124, 122, 122);
+}
+
+.brand_name
+{
+	font-family: "Roboto", serif;
+	font-size: 30px;
+	font-weight: 100;
+	color: rgb(167, 162, 162);
+}
+
+.logos_footer a
+{
+	position: relative;
+		top: 150px;
+	padding-left: 35px;
+}
+
+.logos_footer p
+{
+	position: relative;
+		top: 185px;
+		left: 35px;
+}
+
+.website
+{
+	position: relative;
+		top: 100px;
+		left: 20px;
+}
+
+.website img
+{
+	margin-left: -4px;
+}
+
+.website p
+{
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+@media all and (max-width:992px)
+{
+	.rooms
+		{
+			display: none;
+		}
+
+	footer
+	{
+		display: none;
+	}
+}

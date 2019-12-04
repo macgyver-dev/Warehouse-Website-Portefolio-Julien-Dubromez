@@ -1,0 +1,25 @@
+<svg id="Groupe_1" data-name="Groupe 1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8c255;
+      }
+
+      .cls-2 {
+        fill: #bfe79e;
+      }
+
+      .cls-3 {
+        fill: #7dd5c9;
+      }
+
+      .cls-4 {
+        fill: #ff9b6d;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="50" width="50" height="50"/>
+  <rect id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-2" width="50" height="50"/>
+  <rect id="Rectangle_10_copy_2" data-name="Rectangle 10 copy 2" class="cls-3" y="50" width="50" height="50"/>
+  <rect id="Rectangle_10_copy_3" data-name="Rectangle 10 copy 3" class="cls-4" x="50" y="50" width="50" height="50"/>
+</svg>
